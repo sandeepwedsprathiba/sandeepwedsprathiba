@@ -666,9 +666,12 @@
 
 		// default example
 		simplyCountdown('.simply-countdown-one', {
-			year: d.getFullYear(),
-			month: d.getMonth(),
-			day: d.getDate() - 19
+				year: 2019,
+			month: 10,
+			day: 10,
+			hours: 7, // Default is 0 [0-23] integer
+            minutes: 0, // Default is 0 [0-59] integer
+            seconds: 0 // Default is 0 [0-59] integer
 		});
 
 		//jQuery example
